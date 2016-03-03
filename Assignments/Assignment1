@@ -1,1 +1,23 @@
-All your assignments are here and should follow the regular expression Assignment[X], where x is the number of assignment
+                                              The Emperor's Old Clothes
+                                              
+ In 1980 ACM Turing Award winner Prof. Hoare had invented quick sort. He also did fundamental  contributions to the definition and design of programming languages.
+He had a problem of explaining quciksort.  After learning ALGOL 60, which features recursion, he was able to explain it much more neatly, and generalized the principle:
+"I have regarded it as the highest goal of programming language design to enable good ideas to be elegantly expressed."
+He has followed some design principles for implementing ALGOL 60:
+Security - every syntactically incorrect program should be rejected by the compiler and every syntactically correct program should give a result or an 
+           error message that is predictable and comprehensible in terms of the source language program itself.
+Brevity - brevity of the object code produced by the compiler and compactness of of run time working data. Implementations 
+          in which the hardware remains much more powerful than necessary lend themselves to simplicity, ruggedness, and reliability. 
+efficient procedure calls: The use of structure should not be discouraged.
+single-pass complier: This makes the compiler faster and more likely to be correct, and makes the language more readable.
+
+Language design has impact on the implementor, the programmer, and the reader.
+Programmers are always surrounded by complexity. If our basic tool, the language in which we design and code our programs, is also complicated, the language itself becomes part of the problem rather than part of its solution.
+The Elliot 503 Mark II software project failed because it was overambitious, it was not adequately specified, and its manager (Hoare) allowed the programmers to attempt things he himself did not understand.
+There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
+ALGOL 68, PL/1, and ADA all fell victim to too many features and too much complexity. Hoare says of PL/1:
+I knew that it would be impossible to write a wholly reliable program when the correctness of 
+each part of the program depends on checking that every other part of the program has avoided all the traps and pitfalls of the language.
+The programmer should make a number of definite assertions which can be checked individually, and from which the correctness of the whole program easily follows.
+A feature which is omitted can always be added later, when its design and its implications are well understood.
+A feature which is included before it is fully understood can never be removed later.
